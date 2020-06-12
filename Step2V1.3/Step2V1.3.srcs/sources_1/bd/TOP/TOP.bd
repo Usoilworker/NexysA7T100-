@@ -1,0 +1,620 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xB2E22C43B2E22C43",
+      "device": "xc7a100tcsg324-1",
+      "name": "TOP",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "LED_IO_0": "",
+      "SWITCH_IO_0": ""
+    },
+    "ports": {
+      "PHYSW00_0": {
+        "direction": "I"
+      },
+      "PHYSW01_0": {
+        "direction": "I"
+      },
+      "PHYSW02_0": {
+        "direction": "I"
+      },
+      "PHYSW03_0": {
+        "direction": "I"
+      },
+      "PHYSW04_0": {
+        "direction": "I"
+      },
+      "PHYSW05_0": {
+        "direction": "I"
+      },
+      "PHYSW06_0": {
+        "direction": "I"
+      },
+      "PHYSW07_0": {
+        "direction": "I"
+      },
+      "PHYSW08_0": {
+        "direction": "I"
+      },
+      "PHYSW09_0": {
+        "direction": "I"
+      },
+      "PHYSW0a_0": {
+        "direction": "I"
+      },
+      "PHYSW0b_0": {
+        "direction": "I"
+      },
+      "PHYSW0c_0": {
+        "direction": "I"
+      },
+      "PHYSW0d_0": {
+        "direction": "I"
+      },
+      "PHYSW0e_0": {
+        "direction": "I"
+      },
+      "PHYSW0f_0": {
+        "direction": "I"
+      },
+      "PHLED00_0": {
+        "direction": "O"
+      },
+      "PHLED01_0": {
+        "direction": "O"
+      },
+      "PHLED02_0": {
+        "direction": "O"
+      },
+      "PHLED03_0": {
+        "direction": "O"
+      },
+      "PHLED04_0": {
+        "direction": "O"
+      },
+      "PHLED05_0": {
+        "direction": "O"
+      },
+      "PHLED06_0": {
+        "direction": "O"
+      },
+      "PHLED07_0": {
+        "direction": "O"
+      },
+      "PHLED08_0": {
+        "direction": "O"
+      },
+      "PHLED09_0": {
+        "direction": "O"
+      },
+      "PHLED0a_0": {
+        "direction": "O"
+      },
+      "PHLED0b_0": {
+        "direction": "O"
+      },
+      "PHLED0c_0": {
+        "direction": "O"
+      },
+      "PHLED0d_0": {
+        "direction": "O"
+      },
+      "PHLED0e_0": {
+        "direction": "O"
+      },
+      "PHLED0f_0": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "LED_IO_0": {
+        "vlnv": "xilinx.com:module_ref:LED_IO:1.0",
+        "xci_name": "TOP_LED_IO_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "LED_IO",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "PHLED00": {
+            "direction": "O"
+          },
+          "PHLED01": {
+            "direction": "O"
+          },
+          "PHLED02": {
+            "direction": "O"
+          },
+          "PHLED03": {
+            "direction": "O"
+          },
+          "PHLED04": {
+            "direction": "O"
+          },
+          "PHLED05": {
+            "direction": "O"
+          },
+          "PHLED06": {
+            "direction": "O"
+          },
+          "PHLED07": {
+            "direction": "O"
+          },
+          "PHLED08": {
+            "direction": "O"
+          },
+          "PHLED09": {
+            "direction": "O"
+          },
+          "PHLED0a": {
+            "direction": "O"
+          },
+          "PHLED0b": {
+            "direction": "O"
+          },
+          "PHLED0c": {
+            "direction": "O"
+          },
+          "PHLED0d": {
+            "direction": "O"
+          },
+          "PHLED0e": {
+            "direction": "O"
+          },
+          "PHLED0f": {
+            "direction": "O"
+          },
+          "INTLED00": {
+            "direction": "I"
+          },
+          "INTLED01": {
+            "direction": "I"
+          },
+          "INTLED02": {
+            "direction": "I"
+          },
+          "INTLED03": {
+            "direction": "I"
+          },
+          "INTLED04": {
+            "direction": "I"
+          },
+          "INTLED05": {
+            "direction": "I"
+          },
+          "INTLED06": {
+            "direction": "I"
+          },
+          "INTLED07": {
+            "direction": "I"
+          },
+          "INTLED08": {
+            "direction": "I"
+          },
+          "INTLED09": {
+            "direction": "I"
+          },
+          "INTLED0a": {
+            "direction": "I"
+          },
+          "INTLED0b": {
+            "direction": "I"
+          },
+          "INTLED0c": {
+            "direction": "I"
+          },
+          "INTLED0d": {
+            "direction": "I"
+          },
+          "INTLED0e": {
+            "direction": "I"
+          },
+          "INTLED0f": {
+            "direction": "I"
+          }
+        }
+      },
+      "SWITCH_IO_0": {
+        "vlnv": "xilinx.com:module_ref:SWITCH_IO:1.0",
+        "xci_name": "TOP_SWITCH_IO_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "SWITCH_IO",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "INTSW00": {
+            "direction": "O"
+          },
+          "INTSW01": {
+            "direction": "O"
+          },
+          "INTSW02": {
+            "direction": "O"
+          },
+          "INTSW03": {
+            "direction": "O"
+          },
+          "INTSW04": {
+            "direction": "O"
+          },
+          "INTSW05": {
+            "direction": "O"
+          },
+          "INTSW06": {
+            "direction": "O"
+          },
+          "INTSW07": {
+            "direction": "O"
+          },
+          "INTSW08": {
+            "direction": "O"
+          },
+          "INTSW09": {
+            "direction": "O"
+          },
+          "INTSW0a": {
+            "direction": "O"
+          },
+          "INTSW0b": {
+            "direction": "O"
+          },
+          "INTSW0c": {
+            "direction": "O"
+          },
+          "INTSW0d": {
+            "direction": "O"
+          },
+          "INTSW0e": {
+            "direction": "O"
+          },
+          "INTSW0f": {
+            "direction": "O"
+          },
+          "PHYSW00": {
+            "direction": "I"
+          },
+          "PHYSW01": {
+            "direction": "I"
+          },
+          "PHYSW02": {
+            "direction": "I"
+          },
+          "PHYSW03": {
+            "direction": "I"
+          },
+          "PHYSW04": {
+            "direction": "I"
+          },
+          "PHYSW05": {
+            "direction": "I"
+          },
+          "PHYSW06": {
+            "direction": "I"
+          },
+          "PHYSW07": {
+            "direction": "I"
+          },
+          "PHYSW08": {
+            "direction": "I"
+          },
+          "PHYSW09": {
+            "direction": "I"
+          },
+          "PHYSW0a": {
+            "direction": "I"
+          },
+          "PHYSW0b": {
+            "direction": "I"
+          },
+          "PHYSW0c": {
+            "direction": "I"
+          },
+          "PHYSW0d": {
+            "direction": "I"
+          },
+          "PHYSW0e": {
+            "direction": "I"
+          },
+          "PHYSW0f": {
+            "direction": "I"
+          }
+        }
+      }
+    },
+    "nets": {
+      "SWITCH_IO_0_INTSW00": {
+        "ports": [
+          "SWITCH_IO_0/INTSW00",
+          "LED_IO_0/INTLED00"
+        ]
+      },
+      "SWITCH_IO_0_INTSW01": {
+        "ports": [
+          "SWITCH_IO_0/INTSW01",
+          "LED_IO_0/INTLED01"
+        ]
+      },
+      "SWITCH_IO_0_INTSW02": {
+        "ports": [
+          "SWITCH_IO_0/INTSW02",
+          "LED_IO_0/INTLED02"
+        ]
+      },
+      "SWITCH_IO_0_INTSW03": {
+        "ports": [
+          "SWITCH_IO_0/INTSW03",
+          "LED_IO_0/INTLED03"
+        ]
+      },
+      "SWITCH_IO_0_INTSW04": {
+        "ports": [
+          "SWITCH_IO_0/INTSW04",
+          "LED_IO_0/INTLED04"
+        ]
+      },
+      "SWITCH_IO_0_INTSW05": {
+        "ports": [
+          "SWITCH_IO_0/INTSW05",
+          "LED_IO_0/INTLED05"
+        ]
+      },
+      "SWITCH_IO_0_INTSW06": {
+        "ports": [
+          "SWITCH_IO_0/INTSW06",
+          "LED_IO_0/INTLED06"
+        ]
+      },
+      "SWITCH_IO_0_INTSW07": {
+        "ports": [
+          "SWITCH_IO_0/INTSW07",
+          "LED_IO_0/INTLED07"
+        ]
+      },
+      "SWITCH_IO_0_INTSW08": {
+        "ports": [
+          "SWITCH_IO_0/INTSW08",
+          "LED_IO_0/INTLED08"
+        ]
+      },
+      "SWITCH_IO_0_INTSW09": {
+        "ports": [
+          "SWITCH_IO_0/INTSW09",
+          "LED_IO_0/INTLED09"
+        ]
+      },
+      "SWITCH_IO_0_INTSW0a": {
+        "ports": [
+          "SWITCH_IO_0/INTSW0a",
+          "LED_IO_0/INTLED0a"
+        ]
+      },
+      "SWITCH_IO_0_INTSW0b": {
+        "ports": [
+          "SWITCH_IO_0/INTSW0b",
+          "LED_IO_0/INTLED0b"
+        ]
+      },
+      "SWITCH_IO_0_INTSW0c": {
+        "ports": [
+          "SWITCH_IO_0/INTSW0c",
+          "LED_IO_0/INTLED0c"
+        ]
+      },
+      "SWITCH_IO_0_INTSW0d": {
+        "ports": [
+          "SWITCH_IO_0/INTSW0d",
+          "LED_IO_0/INTLED0d"
+        ]
+      },
+      "SWITCH_IO_0_INTSW0e": {
+        "ports": [
+          "SWITCH_IO_0/INTSW0e",
+          "LED_IO_0/INTLED0e"
+        ]
+      },
+      "SWITCH_IO_0_INTSW0f": {
+        "ports": [
+          "SWITCH_IO_0/INTSW0f",
+          "LED_IO_0/INTLED0f"
+        ]
+      },
+      "PHYSW00_0_1": {
+        "ports": [
+          "PHYSW00_0",
+          "SWITCH_IO_0/PHYSW00"
+        ]
+      },
+      "PHYSW01_0_1": {
+        "ports": [
+          "PHYSW01_0",
+          "SWITCH_IO_0/PHYSW01"
+        ]
+      },
+      "PHYSW02_0_1": {
+        "ports": [
+          "PHYSW02_0",
+          "SWITCH_IO_0/PHYSW02"
+        ]
+      },
+      "PHYSW03_0_1": {
+        "ports": [
+          "PHYSW03_0",
+          "SWITCH_IO_0/PHYSW03"
+        ]
+      },
+      "PHYSW04_0_1": {
+        "ports": [
+          "PHYSW04_0",
+          "SWITCH_IO_0/PHYSW04"
+        ]
+      },
+      "PHYSW05_0_1": {
+        "ports": [
+          "PHYSW05_0",
+          "SWITCH_IO_0/PHYSW05"
+        ]
+      },
+      "PHYSW06_0_1": {
+        "ports": [
+          "PHYSW06_0",
+          "SWITCH_IO_0/PHYSW06"
+        ]
+      },
+      "PHYSW07_0_1": {
+        "ports": [
+          "PHYSW07_0",
+          "SWITCH_IO_0/PHYSW07"
+        ]
+      },
+      "PHYSW08_0_1": {
+        "ports": [
+          "PHYSW08_0",
+          "SWITCH_IO_0/PHYSW08"
+        ]
+      },
+      "PHYSW09_0_1": {
+        "ports": [
+          "PHYSW09_0",
+          "SWITCH_IO_0/PHYSW09"
+        ]
+      },
+      "PHYSW0a_0_1": {
+        "ports": [
+          "PHYSW0a_0",
+          "SWITCH_IO_0/PHYSW0a"
+        ]
+      },
+      "PHYSW0b_0_1": {
+        "ports": [
+          "PHYSW0b_0",
+          "SWITCH_IO_0/PHYSW0b"
+        ]
+      },
+      "PHYSW0c_0_1": {
+        "ports": [
+          "PHYSW0c_0",
+          "SWITCH_IO_0/PHYSW0c"
+        ]
+      },
+      "PHYSW0d_0_1": {
+        "ports": [
+          "PHYSW0d_0",
+          "SWITCH_IO_0/PHYSW0d"
+        ]
+      },
+      "PHYSW0e_0_1": {
+        "ports": [
+          "PHYSW0e_0",
+          "SWITCH_IO_0/PHYSW0e"
+        ]
+      },
+      "PHYSW0f_0_1": {
+        "ports": [
+          "PHYSW0f_0",
+          "SWITCH_IO_0/PHYSW0f"
+        ]
+      },
+      "LED_IO_0_PHLED00": {
+        "ports": [
+          "LED_IO_0/PHLED00",
+          "PHLED00_0"
+        ]
+      },
+      "LED_IO_0_PHLED01": {
+        "ports": [
+          "LED_IO_0/PHLED01",
+          "PHLED01_0"
+        ]
+      },
+      "LED_IO_0_PHLED02": {
+        "ports": [
+          "LED_IO_0/PHLED02",
+          "PHLED02_0"
+        ]
+      },
+      "LED_IO_0_PHLED03": {
+        "ports": [
+          "LED_IO_0/PHLED03",
+          "PHLED03_0"
+        ]
+      },
+      "LED_IO_0_PHLED04": {
+        "ports": [
+          "LED_IO_0/PHLED04",
+          "PHLED04_0"
+        ]
+      },
+      "LED_IO_0_PHLED05": {
+        "ports": [
+          "LED_IO_0/PHLED05",
+          "PHLED05_0"
+        ]
+      },
+      "LED_IO_0_PHLED06": {
+        "ports": [
+          "LED_IO_0/PHLED06",
+          "PHLED06_0"
+        ]
+      },
+      "LED_IO_0_PHLED07": {
+        "ports": [
+          "LED_IO_0/PHLED07",
+          "PHLED07_0"
+        ]
+      },
+      "LED_IO_0_PHLED08": {
+        "ports": [
+          "LED_IO_0/PHLED08",
+          "PHLED08_0"
+        ]
+      },
+      "LED_IO_0_PHLED09": {
+        "ports": [
+          "LED_IO_0/PHLED09",
+          "PHLED09_0"
+        ]
+      },
+      "LED_IO_0_PHLED0a": {
+        "ports": [
+          "LED_IO_0/PHLED0a",
+          "PHLED0a_0"
+        ]
+      },
+      "LED_IO_0_PHLED0b": {
+        "ports": [
+          "LED_IO_0/PHLED0b",
+          "PHLED0b_0"
+        ]
+      },
+      "LED_IO_0_PHLED0c": {
+        "ports": [
+          "LED_IO_0/PHLED0c",
+          "PHLED0c_0"
+        ]
+      },
+      "LED_IO_0_PHLED0d": {
+        "ports": [
+          "LED_IO_0/PHLED0d",
+          "PHLED0d_0"
+        ]
+      },
+      "LED_IO_0_PHLED0e": {
+        "ports": [
+          "LED_IO_0/PHLED0e",
+          "PHLED0e_0"
+        ]
+      },
+      "LED_IO_0_PHLED0f": {
+        "ports": [
+          "LED_IO_0/PHLED0f",
+          "PHLED0f_0"
+        ]
+      }
+    }
+  }
+}

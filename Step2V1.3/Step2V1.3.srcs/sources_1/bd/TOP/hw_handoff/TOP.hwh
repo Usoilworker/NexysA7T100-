@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jun 11 13:09:03 2020" VIVADOVERSION="2019.2">
+
+  <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:nexys-a7-100t:part0:1.0" DEVICE="7a100t" NAME="TOP" PACKAGE="csg324" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="PHYSW00_0" SIGIS="undef" SIGNAME="External_Ports_PHYSW00_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SWITCH_IO_0" PORT="PHYSW00"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="PHYSW01_0" SIGIS="undef" SIGNAME="External_Ports_PHYSW01_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SWITCH_IO_0" PORT="PHYSW01"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="PHYSW02_0" SIGIS="undef" SIGNAME="External_Ports_PHYSW02_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SWITCH_IO_0" PORT="PHYSW02"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="PHYSW03_0" SIGIS="undef" SIGNAME="External_Ports_PHYSW03_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SWITCH_IO_0" PORT="PHYSW03"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="PHYSW04_0" SIGIS="undef" SIGNAME="External_Ports_PHYSW04_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SWITCH_IO_0" PORT="PHYSW04"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="PHYSW05_0" SIGIS="undef" SIGNAME="External_Ports_PHYSW05_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SWITCH_IO_0" PORT="PHYSW05"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="PHYSW06_0" SIGIS="undef" SIGNAME="External_Ports_PHYSW06_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SWITCH_IO_0" PORT="PHYSW06"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="PHYSW07_0" SIGIS="undef" SIGNAME="External_Ports_PHYSW07_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SWITCH_IO_0" PORT="PHYSW07"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="PHYSW08_0" SIGIS="undef" SIGNAME="External_Ports_PHYSW08_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SWITCH_IO_0" PORT="PHYSW08"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="PHYSW09_0" SIGIS="undef" SIGNAME="External_Ports_PHYSW09_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SWITCH_IO_0" PORT="PHYSW09"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="PHYSW0a_0" SIGIS="undef" SIGNAME="External_Ports_PHYSW0a_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SWITCH_IO_0" PORT="PHYSW0a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="PHYSW0b_0" SIGIS="undef" SIGNAME="External_Ports_PHYSW0b_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SWITCH_IO_0" PORT="PHYSW0b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="PHYSW0c_0" SIGIS="undef" SIGNAME="External_Ports_PHYSW0c_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SWITCH_IO_0" PORT="PHYSW0c"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="PHYSW0d_0" SIGIS="undef" SIGNAME="External_Ports_PHYSW0d_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SWITCH_IO_0" PORT="PHYSW0d"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="PHYSW0e_0" SIGIS="undef" SIGNAME="External_Ports_PHYSW0e_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SWITCH_IO_0" PORT="PHYSW0e"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="PHYSW0f_0" SIGIS="undef" SIGNAME="External_Ports_PHYSW0f_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SWITCH_IO_0" PORT="PHYSW0f"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="PHLED00_0" SIGIS="undef" SIGNAME="LED_IO_0_PHLED00">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="LED_IO_0" PORT="PHLED00"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="PHLED01_0" SIGIS="undef" SIGNAME="LED_IO_0_PHLED01">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="LED_IO_0" PORT="PHLED01"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="PHLED02_0" SIGIS="undef" SIGNAME="LED_IO_0_PHLED02">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="LED_IO_0" PORT="PHLED02"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="PHLED03_0" SIGIS="undef" SIGNAME="LED_IO_0_PHLED03">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="LED_IO_0" PORT="PHLED03"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="PHLED04_0" SIGIS="undef" SIGNAME="LED_IO_0_PHLED04">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="LED_IO_0" PORT="PHLED04"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="PHLED05_0" SIGIS="undef" SIGNAME="LED_IO_0_PHLED05">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="LED_IO_0" PORT="PHLED05"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="PHLED06_0" SIGIS="undef" SIGNAME="LED_IO_0_PHLED06">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="LED_IO_0" PORT="PHLED06"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="PHLED07_0" SIGIS="undef" SIGNAME="LED_IO_0_PHLED07">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="LED_IO_0" PORT="PHLED07"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="PHLED08_0" SIGIS="undef" SIGNAME="LED_IO_0_PHLED08">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="LED_IO_0" PORT="PHLED08"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="PHLED09_0" SIGIS="undef" SIGNAME="LED_IO_0_PHLED09">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="LED_IO_0" PORT="PHLED09"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="PHLED0a_0" SIGIS="undef" SIGNAME="LED_IO_0_PHLED0a">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="LED_IO_0" PORT="PHLED0a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="PHLED0b_0" SIGIS="undef" SIGNAME="LED_IO_0_PHLED0b">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="LED_IO_0" PORT="PHLED0b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="PHLED0c_0" SIGIS="undef" SIGNAME="LED_IO_0_PHLED0c">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="LED_IO_0" PORT="PHLED0c"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="PHLED0d_0" SIGIS="undef" SIGNAME="LED_IO_0_PHLED0d">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="LED_IO_0" PORT="PHLED0d"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="PHLED0e_0" SIGIS="undef" SIGNAME="LED_IO_0_PHLED0e">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="LED_IO_0" PORT="PHLED0e"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="PHLED0f_0" SIGIS="undef" SIGNAME="LED_IO_0_PHLED0f">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="LED_IO_0" PORT="PHLED0f"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/LED_IO_0" HWVERSION="1.0" INSTANCE="LED_IO_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="LED_IO" VLNV="xilinx.com:module_ref:LED_IO:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="TOP_LED_IO_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="PHLED00" SIGIS="undef" SIGNAME="LED_IO_0_PHLED00">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHLED00_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="PHLED01" SIGIS="undef" SIGNAME="LED_IO_0_PHLED01">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHLED01_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="PHLED02" SIGIS="undef" SIGNAME="LED_IO_0_PHLED02">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHLED02_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="PHLED03" SIGIS="undef" SIGNAME="LED_IO_0_PHLED03">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHLED03_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="PHLED04" SIGIS="undef" SIGNAME="LED_IO_0_PHLED04">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHLED04_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="PHLED05" SIGIS="undef" SIGNAME="LED_IO_0_PHLED05">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHLED05_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="PHLED06" SIGIS="undef" SIGNAME="LED_IO_0_PHLED06">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHLED06_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="PHLED07" SIGIS="undef" SIGNAME="LED_IO_0_PHLED07">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHLED07_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="PHLED08" SIGIS="undef" SIGNAME="LED_IO_0_PHLED08">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHLED08_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="PHLED09" SIGIS="undef" SIGNAME="LED_IO_0_PHLED09">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHLED09_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="PHLED0a" SIGIS="undef" SIGNAME="LED_IO_0_PHLED0a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHLED0a_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="PHLED0b" SIGIS="undef" SIGNAME="LED_IO_0_PHLED0b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHLED0b_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="PHLED0c" SIGIS="undef" SIGNAME="LED_IO_0_PHLED0c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHLED0c_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="PHLED0d" SIGIS="undef" SIGNAME="LED_IO_0_PHLED0d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHLED0d_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="PHLED0e" SIGIS="undef" SIGNAME="LED_IO_0_PHLED0e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHLED0e_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="PHLED0f" SIGIS="undef" SIGNAME="LED_IO_0_PHLED0f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHLED0f_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="INTLED00" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW00">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SWITCH_IO_0" PORT="INTSW00"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="INTLED01" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW01">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SWITCH_IO_0" PORT="INTSW01"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="INTLED02" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW02">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SWITCH_IO_0" PORT="INTSW02"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="INTLED03" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW03">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SWITCH_IO_0" PORT="INTSW03"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="INTLED04" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW04">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SWITCH_IO_0" PORT="INTSW04"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="INTLED05" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW05">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SWITCH_IO_0" PORT="INTSW05"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="INTLED06" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW06">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SWITCH_IO_0" PORT="INTSW06"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="INTLED07" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW07">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SWITCH_IO_0" PORT="INTSW07"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="INTLED08" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW08">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SWITCH_IO_0" PORT="INTSW08"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="INTLED09" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW09">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SWITCH_IO_0" PORT="INTSW09"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="INTLED0a" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW0a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SWITCH_IO_0" PORT="INTSW0a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="INTLED0b" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW0b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SWITCH_IO_0" PORT="INTSW0b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="INTLED0c" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW0c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SWITCH_IO_0" PORT="INTSW0c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="INTLED0d" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW0d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SWITCH_IO_0" PORT="INTSW0d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="INTLED0e" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW0e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SWITCH_IO_0" PORT="INTSW0e"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="INTLED0f" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW0f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SWITCH_IO_0" PORT="INTSW0f"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/SWITCH_IO_0" HWVERSION="1.0" INSTANCE="SWITCH_IO_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="SWITCH_IO" VLNV="xilinx.com:module_ref:SWITCH_IO:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="TOP_SWITCH_IO_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="INTSW00" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW00">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="LED_IO_0" PORT="INTLED00"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="INTSW01" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW01">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="LED_IO_0" PORT="INTLED01"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="INTSW02" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW02">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="LED_IO_0" PORT="INTLED02"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="INTSW03" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW03">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="LED_IO_0" PORT="INTLED03"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="INTSW04" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW04">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="LED_IO_0" PORT="INTLED04"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="INTSW05" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW05">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="LED_IO_0" PORT="INTLED05"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="INTSW06" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW06">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="LED_IO_0" PORT="INTLED06"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="INTSW07" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW07">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="LED_IO_0" PORT="INTLED07"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="INTSW08" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW08">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="LED_IO_0" PORT="INTLED08"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="INTSW09" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW09">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="LED_IO_0" PORT="INTLED09"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="INTSW0a" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW0a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="LED_IO_0" PORT="INTLED0a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="INTSW0b" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW0b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="LED_IO_0" PORT="INTLED0b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="INTSW0c" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW0c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="LED_IO_0" PORT="INTLED0c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="INTSW0d" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW0d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="LED_IO_0" PORT="INTLED0d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="INTSW0e" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW0e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="LED_IO_0" PORT="INTLED0e"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="INTSW0f" SIGIS="undef" SIGNAME="SWITCH_IO_0_INTSW0f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="LED_IO_0" PORT="INTLED0f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="PHYSW00" SIGIS="undef" SIGNAME="External_Ports_PHYSW00_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHYSW00_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="PHYSW01" SIGIS="undef" SIGNAME="External_Ports_PHYSW01_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHYSW01_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="PHYSW02" SIGIS="undef" SIGNAME="External_Ports_PHYSW02_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHYSW02_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="PHYSW03" SIGIS="undef" SIGNAME="External_Ports_PHYSW03_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHYSW03_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="PHYSW04" SIGIS="undef" SIGNAME="External_Ports_PHYSW04_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHYSW04_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="PHYSW05" SIGIS="undef" SIGNAME="External_Ports_PHYSW05_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHYSW05_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="PHYSW06" SIGIS="undef" SIGNAME="External_Ports_PHYSW06_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHYSW06_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="PHYSW07" SIGIS="undef" SIGNAME="External_Ports_PHYSW07_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHYSW07_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="PHYSW08" SIGIS="undef" SIGNAME="External_Ports_PHYSW08_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHYSW08_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="PHYSW09" SIGIS="undef" SIGNAME="External_Ports_PHYSW09_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHYSW09_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="PHYSW0a" SIGIS="undef" SIGNAME="External_Ports_PHYSW0a_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHYSW0a_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="PHYSW0b" SIGIS="undef" SIGNAME="External_Ports_PHYSW0b_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHYSW0b_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="PHYSW0c" SIGIS="undef" SIGNAME="External_Ports_PHYSW0c_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHYSW0c_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="PHYSW0d" SIGIS="undef" SIGNAME="External_Ports_PHYSW0d_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHYSW0d_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="PHYSW0e" SIGIS="undef" SIGNAME="External_Ports_PHYSW0e_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHYSW0e_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="PHYSW0f" SIGIS="undef" SIGNAME="External_Ports_PHYSW0f_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PHYSW0f_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>
